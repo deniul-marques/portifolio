@@ -2,7 +2,7 @@ import {FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube, FaDribbble
 
 export default function Sidebar() {
       return (
-            <div className="md:max-w-xs text-sm mx-auto md:mx-0">
+            <div className="md:max-w-xs text-sm mx-auto md:mx-0 bg-white">
                   <div className="flex flex-col px-10  md:px-5 py-10">
                         <img className="mx-auto" src="/image/perfil.png" alt="Imagen Profile"/>
                         <h1 className="font-medium text-base text-center my-3">Deniul Marques dos Santos</h1>
