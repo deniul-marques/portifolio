@@ -2,11 +2,11 @@ import {FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube, FaDribbble
 
 export default function Sidebar() {
       return (
-            <div className="md:max-w-xs text-sm mx-auto md:mx-0">
+            <div className="md:max-w-xs text-sm mx-auto md:mx-0 bg-white">
                   <div className="flex flex-col px-10  md:px-5 py-10">
-                        <img className="mb-4 max-w-[50%] mx-auto " src="/image/profile.jpg" alt="Imagen Profile"/>
-                        <h1 className="font-medium text-base text-center">Deniul Marques dos Santos</h1>
-                        <span className="text-gray-400 text-sm mb-5 mt-3 text-center">Font-end Developer</span>
+                        <img className="mx-auto" src="/image/perfil.png" alt="Imagen Profile"/>
+                        <h1 className="font-medium text-base text-center my-3">Deniul Marques dos Santos</h1>
+                        <span className="text-gray-400 text-sm mb-5 text-center">Font-end Developer</span>
                         <ul className="text-md flex justify-between">
                               <li className="p-2 rounded-full bg-[#FFB400]">< FaFacebookF/></li>
                               <li className="p-2 rounded-full bg-[#FFB400]">< FaInstagram/></li>
@@ -100,12 +100,25 @@ export default function Sidebar() {
                               <div>
                                     <h2 className="mb-4 font-semibold text-gray-700">Habilidades Extras</h2>
                                     <ul className="flex flex-col space-y-2">
-                                          <li>Puppeteer</li>
-                                          <li>Scrapy</li>
-                                          <li>Tailwind CSS</li>
-                                          <li>MySql</li>
-                                          <li>React JS</li>
-                                          <li>GIT</li>
+                                          <li className="flex items-center">
+                                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path></svg>
+                                                Puppeteer
+                                                </li>
+                                          <li className="flex items-center">
+                                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path></svg>
+                                                Scrapy</li>
+                                          <li className="flex items-center">
+                                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path></svg>
+                                                Tailwind CSS</li>
+                                          <li className="flex items-center">
+                                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path></svg>
+                                                MySql</li>
+                                          <li className="flex items-center">
+                                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path></svg>
+                                                React JS</li>
+                                          <li className="flex items-center">
+                                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path></svg>
+                                                GIT</li>
                                     </ul>
                               </div>
                         </div>
