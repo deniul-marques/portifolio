@@ -4,9 +4,9 @@ import Sidebar from "./components/Sidebar/Sidebar";
 export default function App() {
       return (
             <>
-                  <div className="flex gap-5">
-                        <Sidebar />
-                        <Banner />
+                  <div className="sm:flex gap-5">
+                        <Sidebar/>
+                        <Banner/>
                   </div>
             </>
       )
